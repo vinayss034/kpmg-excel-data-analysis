@@ -1,0 +1,17 @@
+# Excel temporary/lock files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Keep empty folders visible in Git
+!.gitkeep
